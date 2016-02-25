@@ -1,0 +1,39 @@
+﻿  snappy-c.cc
+  snappy-sinksource.cc
+  snappy-stubs-internal.cc
+  snappy.cc
+snappy.cc(143): warning C4244: '-=': conversion from '__int64' to 'snappy::ssize_t', possible loss of data
+snappy.cc(206): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+snappy.cc(210): warning C4267: 'argument': conversion from 'size_t' to 'snappy::uint16', possible loss of data
+snappy.cc(268): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+snappy.cc(395): warning C4244: '=': conversion from '__int64' to 'snappy::uint16', possible loss of data
+snappy.cc(403): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+snappy.cc(434): warning C4244: '=': conversion from '__int64' to 'snappy::uint16', possible loss of data
+snappy.cc(438): warning C4244: '=': conversion from '__int64' to 'snappy::uint16', possible loss of data
+snappy.cc(449): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+snappy.cc(797): warning C4267: '=': conversion from 'size_t' to 'snappy::uint32', possible loss of data
+snappy.cc(813): warning C4244: 'initializing': conversion from '__int64' to 'snappy::uint32', possible loss of data
+snappy.cc(826): warning C4267: 'argument': conversion from 'size_t' to 'const snappy::uint32', possible loss of data
+snappy.cc(878): warning C4267: 'argument': conversion from 'size_t' to 'snappy::uint32', possible loss of data
+snappy.cc(928): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+snappy.cc(928): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+snappy.cc(1210): warning C4267: 'argument': conversion from 'size_t' to 'snappy::ssize_t', possible loss of data
+snappy.cc(1215): warning C4267: 'argument': conversion from 'size_t' to 'snappy::ssize_t', possible loss of data
+snappy.cc(760): warning C4267: '=': conversion from 'size_t' to 'snappy::uint32', possible loss of data
+  snappy.cc(865): note: see reference to function template instantiation 'void snappy::SnappyDecompressor::DecompressAllTags<Writer>(Writer *)' being compiled
+          with
+          [
+              Writer=snappy::SnappyArrayWriter
+          ]
+  snappy.cc(855): note: see reference to function template instantiation 'bool snappy::InternalUncompressAllTags<Writer>(snappy::SnappyDecompressor *,Writer *,snappy::uint32)' being compiled
+          with
+          [
+              Writer=snappy::SnappyArrayWriter
+          ]
+  snappy.cc(1231): note: see reference to function template instantiation 'bool snappy::InternalUncompress<snappy::SnappyArrayWriter>(snappy::Source *,Writer *)' being compiled
+          with
+          [
+              Writer=snappy::SnappyArrayWriter
+          ]
+  Generating Code...
+  Snappy-static-lib.vcxproj -> E:\xio6\XIO\Plugins\KinectPlugin\Thirdparty\snappy-windows-1.1.1.8\src\x64\Release\Snappy-static-lib.lib

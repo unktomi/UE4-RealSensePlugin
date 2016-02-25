@@ -1,0 +1,77 @@
+﻿Build started 1/3/2016 7:29:36 PM.
+     1>Project "E:\xio6\XIO\Plugins\KinectPlugin\Thirdparty\snappy-windows-1.1.1.8\src\Snappy-static-lib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp "snappy-c.cc" "snappy-single-file.cpp" "snappy-sinksource.cc" "snappy-stubs-internal.cc" "snappy-test.cc" snappy.cc snappy_unittest.cc
+         snappy_unittest.cc
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(1243): warning C4005: 'ARRAYSIZE' : macro redefinition
+                 e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-stubs-internal.h(72) : see previous definition of 'ARRAYSIZE'
+     1>e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-test.h(151): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-test.h(174): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-test.h(252): warning C4244: '=' : conversion from 'snappy::uint64' to 'snappy::uint32', possible loss of data
+     1>e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-test.h(289): warning C4244: '+=' : conversion from 'double' to 'snappy::int64', possible loss of data
+     1>snappy_unittest.cc(451): warning C4018: '<' : signed/unsigned mismatch
+     1>snappy_unittest.cc(460): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>snappy_unittest.cc(461): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>snappy_unittest.cc(630): warning C4018: '<' : signed/unsigned mismatch
+     1>snappy_unittest.cc(645): warning C4309: '=' : truncation of constant value
+     1>snappy_unittest.cc(655): warning C4309: '=' : truncation of constant value
+     1>snappy_unittest.cc(776): warning C4018: '<' : signed/unsigned mismatch
+     1>snappy_unittest.cc(782): warning C4018: '<' : signed/unsigned mismatch
+     1>snappy_unittest.cc(965): warning C4309: 'argument' : truncation of constant value
+     1>snappy_unittest.cc(966): warning C4309: 'argument' : truncation of constant value
+     1>snappy_unittest.cc(967): warning C4309: 'argument' : truncation of constant value
+     1>snappy_unittest.cc(968): warning C4309: 'argument' : truncation of constant value
+     1>snappy_unittest.cc(969): warning C4309: 'argument' : truncation of constant value
+     1>snappy_unittest.cc(1351): error C2491: 'snappy_unittests' : definition of dllimport function not allowed
+         snappy.cc
+         snappy-test.cc
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(1243): warning C4005: 'ARRAYSIZE' : macro redefinition
+                 e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-stubs-internal.h(72) : see previous definition of 'ARRAYSIZE'
+     1>e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-test.h(151): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-test.h(174): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-test.h(252): warning C4244: '=' : conversion from 'snappy::uint64' to 'snappy::uint32', possible loss of data
+     1>e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-test.h(289): warning C4244: '+=' : conversion from 'double' to 'snappy::int64', possible loss of data
+     1>snappy-test.cc(47): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : see declaration of 'getenv'
+     1>snappy-test.cc(68): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(337) : see declaration of 'vsnprintf'
+     1>snappy-test.cc(122): warning C4244: '+=' : conversion from 'double' to 'snappy::int64', possible loss of data
+     1>snappy-test.cc(199): warning C4244: '=' : conversion from 'snappy::int64' to 'int', possible loss of data
+         snappy-stubs-internal.cc
+         snappy-sinksource.cc
+         snappy-single-file.cpp
+     1>e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-c.cc(37): warning C4273: 'snappy_compress' : inconsistent dll linkage
+                 e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-c.h(81) : see previous definition of 'snappy_compress'
+     1>e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-c.cc(48): warning C4273: 'snappy_uncompress' : inconsistent dll linkage
+                 e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-c.h(114) : see previous definition of 'snappy_uncompress'
+     1>e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-c.cc(65): warning C4273: 'snappy_max_compressed_length' : inconsistent dll linkage
+                 e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-c.h(124) : see previous definition of 'snappy_max_compressed_length'
+     1>e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-c.cc(71): warning C4273: 'snappy_uncompressed_length' : inconsistent dll linkage
+                 e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-c.h(132) : see previous definition of 'snappy_uncompressed_length'
+     1>e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-c.cc(82): warning C4273: 'snappy_validate_compressed_buffer' : inconsistent dll linkage
+                 e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-c.h(144) : see previous definition of 'snappy_validate_compressed_buffer'
+     1>e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy_unittest.cc(1351): error C2491: 'snappy_unittests' : definition of dllimport function not allowed
+         snappy-c.cc
+     1>snappy-c.cc(37): warning C4273: 'snappy_compress' : inconsistent dll linkage
+                 e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-c.h(81) : see previous definition of 'snappy_compress'
+     1>snappy-c.cc(48): warning C4273: 'snappy_uncompress' : inconsistent dll linkage
+                 e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-c.h(114) : see previous definition of 'snappy_uncompress'
+     1>snappy-c.cc(65): warning C4273: 'snappy_max_compressed_length' : inconsistent dll linkage
+                 e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-c.h(124) : see previous definition of 'snappy_max_compressed_length'
+     1>snappy-c.cc(71): warning C4273: 'snappy_uncompressed_length' : inconsistent dll linkage
+                 e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-c.h(132) : see previous definition of 'snappy_uncompressed_length'
+     1>snappy-c.cc(82): warning C4273: 'snappy_validate_compressed_buffer' : inconsistent dll linkage
+                 e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-c.h(144) : see previous definition of 'snappy_validate_compressed_buffer'
+         dllmain.cpp
+         Generating Code...
+     1>e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-test.h(169): warning C4715: '`anonymous namespace'::file::GetContents' : not all control paths return a value
+     1>e:\xio6\xio\plugins\kinectplugin\thirdparty\snappy-windows-1.1.1.8\src\snappy-test.h(187): warning C4715: '`anonymous namespace'::file::SetContents' : not all control paths return a value
+     1>Done Building Project "E:\xio6\XIO\Plugins\KinectPlugin\Thirdparty\snappy-windows-1.1.1.8\src\Snappy-static-lib.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.73
